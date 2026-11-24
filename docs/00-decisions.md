@@ -42,3 +42,7 @@ A running log. Update it whenever something is decided or a new question comes u
 6. **Lifetime users and Sparks.** Lifetime users get the same monthly Spark allowance as subscribers. Confirm.
 7. **Android.** Not planned for v1.
 8. **Web version.** Not planned for v1. Revisit for school licenses.
+9. **Color palette (M1 placeholders).** `ios/LearnKit/DesignSystem/Resources/Colors.xcassets` uses placeholder values: an indigo UI accent (`#3B4FD8` light, `#8C9BFF` dark) and a duck-bill orange/yellow `mascot`. All text and syntax tokens pass 4.5:1 on their backgrounds. Needs a real palette decision. M1 also added `border` and `textOnAccent` tokens (not in `11-design.md`) because buttons and pills need them.
+10. **Tab icons (M1 placeholders).** Learn uses `point.topleft.down.to.point.bottomright.curvepath.fill`, Daily uses `ladybug.fill`, Profile uses `person.crop.circle.fill`. Confirm or replace with custom symbols.
+11. **Haptics default.** On by default, toggle in Profile > Settings (`@AppStorage` key `settings.hapticsEnabled`). Confirm the default.
+12. **LearnKit module split.** `Brand`, `DesignSystem`, `Models`, `Grading` are separate Swift package products (the widget links only `Brand` and `DesignSystem`). Confirm, or merge into fewer modules.
