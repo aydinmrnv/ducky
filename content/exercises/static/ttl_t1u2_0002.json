@@ -1,0 +1,17 @@
+{
+  "id": "ttl_t1u2_0002",
+  "type": "tapTheLine",
+  "unitId": "t1-u2",
+  "concepts": ["reassignment"],
+  "difficulty": 1,
+  "language": "javascript",
+  "basedOn": [
+    { "label": "MDN: let", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let" }
+  ],
+  "explanation": "Line 3 stores a new value in total. The other lines create values or print them.",
+  "payload": {
+    "prompt": "Tap the line that changes the value of total.",
+    "code": ["let total = 0;", "const price = 3;", "total = total + price;", "console.log(total);"],
+    "answerLines": [2]
+  }
+}

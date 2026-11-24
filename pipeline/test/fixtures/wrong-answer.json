@@ -1,0 +1,15 @@
+{
+  "id": "wrong-answer",
+  "type": "predictOutput",
+  "unitId": "t1-u2",
+  "concepts": ["types"],
+  "difficulty": 1,
+  "language": "javascript",
+  "basedOn": [{ "label": "Example source", "url": "https://example.test/docs" }],
+  "explanation": "Deliberately wrong: the stored answer says 4. The real output is 22.",
+  "payload": {
+    "code": ["let a = \"2\";", "let b = 2;", "console.log(a + b);"],
+    "options": ["4", "22", "\"2\"2", "Error"],
+    "answerIndex": 0
+  }
+}

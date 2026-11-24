@@ -1,0 +1,17 @@
+{
+  "id": "po_t1u2_0004",
+  "type": "predictOutput",
+  "unitId": "t1-u2",
+  "concepts": ["variables", "reassignment"],
+  "difficulty": 2,
+  "language": "javascript",
+  "basedOn": [
+    { "label": "MDN: let", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let" }
+  ],
+  "explanation": "y copies the value 1 when it is created. Changing x later does not change y.",
+  "payload": {
+    "code": ["let x = 1;", "let y = x;", "x = 5;", "console.log(x);", "console.log(y);"],
+    "options": ["5\n1", "5\n5", "1\n1", "1\n5"],
+    "answerIndex": 0
+  }
+}
