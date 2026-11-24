@@ -1,0 +1,15 @@
+{
+  "id": "infinite-loop",
+  "type": "predictOutput",
+  "unitId": "t1-u2",
+  "concepts": ["types"],
+  "difficulty": 1,
+  "language": "javascript",
+  "basedOn": [{ "label": "Example source", "url": "https://example.test/docs" }],
+  "explanation": "Never finishes.",
+  "payload": {
+    "code": ["let i = 0;", "while (true) { i++; }", "console.log(i);"],
+    "options": ["0", "1", "Error"],
+    "answerIndex": 2
+  }
+}

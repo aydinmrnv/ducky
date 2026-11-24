@@ -1,0 +1,17 @@
+{
+  "id": "po_t1u2_0002",
+  "type": "predictOutput",
+  "unitId": "t1-u2",
+  "concepts": ["variables", "reassignment"],
+  "difficulty": 1,
+  "language": "javascript",
+  "basedOn": [
+    { "label": "MDN: Variables", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Variables" }
+  ],
+  "explanation": "The second line reads the old score (10), adds 5, and stores 15 back in score. The log shows the new value.",
+  "payload": {
+    "code": ["let score = 10;", "score = score + 5;", "console.log(score);"],
+    "options": ["10", "15", "105", "Error"],
+    "answerIndex": 1
+  }
+}
