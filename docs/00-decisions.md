@@ -42,3 +42,6 @@ A running log. Update it whenever something is decided or a new question comes u
 6. **Lifetime users and Sparks.** Lifetime users get the same monthly Spark allowance as subscribers. Confirm.
 7. **Android.** Not planned for v1.
 8. **Web version.** Not planned for v1. Revisit for school licenses.
+9. **Predict the Output for code that throws.** The pipeline treats "throws before printing anything" as the answer `Error` (matching the `"Error"` option in the `12-data-models.md` example). Code that prints and then throws fails verification. Confirm this convention, or add an explicit field (for example `expectsError: true`).
+10. **`pnpm pipeline` vs pnpm 12.** pnpm 12 ships a built-in `pipeline` command, so the documented `pnpm pipeline verify ...` runs pnpm's command instead of ours. Current workaround: `pnpm run pipeline verify ...`. Option: rename the script (for example `pnpm content verify`) and update `07-content-pipeline.md`.
+11. **Exercise ids and file layout.** Sample static exercises use one file per item named after the id (`po_t1u2_0001`, `ttl_t1u2_0001`). The verifier also accepts a file holding an array of items. Confirm the id prefix scheme per type.

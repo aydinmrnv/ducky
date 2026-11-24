@@ -1,0 +1,18 @@
+{
+  "id": "po_t1u2_0003",
+  "type": "predictOutput",
+  "unitId": "t1-u2",
+  "concepts": ["variables", "reassignment"],
+  "difficulty": 2,
+  "language": "javascript",
+  "basedOn": [
+    { "label": "MDN: const", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const" }
+  ],
+  "explanation": "A const can't be given a new value, so line 2 throws a TypeError. Nothing gets logged.",
+  "altExplanation": "const locks the value in place. Trying to change it stops the program with an error.",
+  "payload": {
+    "code": ["const name = \"Sam\";", "name = \"Alex\";", "console.log(name);"],
+    "options": ["Sam", "Alex", "Error", "undefined"],
+    "answerIndex": 2
+  }
+}

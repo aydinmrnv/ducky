@@ -1,0 +1,15 @@
+{
+  "id": "distractor-equals-output",
+  "type": "predictOutput",
+  "unitId": "t1-u2",
+  "concepts": ["types"],
+  "difficulty": 1,
+  "language": "javascript",
+  "basedOn": [{ "label": "Example source", "url": "https://example.test/docs" }],
+  "explanation": "Two options say 2.",
+  "payload": {
+    "code": ["console.log(1 + 1);"],
+    "options": ["2", "11", "2", "Error"],
+    "answerIndex": 0
+  }
+}

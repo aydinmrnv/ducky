@@ -1,0 +1,17 @@
+{
+  "id": "ttl_t1u2_0001",
+  "type": "tapTheLine",
+  "unitId": "t1-u2",
+  "concepts": ["variables"],
+  "difficulty": 1,
+  "language": "javascript",
+  "basedOn": [
+    { "label": "MDN: Variables", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Variables" }
+  ],
+  "explanation": "The first line creates count and gives it its starting value of 1.",
+  "payload": {
+    "prompt": "Tap the line that makes the counter start at 1.",
+    "code": ["let count = 1;", "count = count + 1;", "console.log(count);"],
+    "answerLines": [0]
+  }
+}

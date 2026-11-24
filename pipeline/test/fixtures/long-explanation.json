@@ -1,0 +1,15 @@
+{
+  "id": "long-explanation",
+  "type": "predictOutput",
+  "unitId": "t1-u2",
+  "concepts": ["types"],
+  "difficulty": 1,
+  "language": "javascript",
+  "basedOn": [{ "label": "Example source", "url": "https://example.test/docs" }],
+  "explanation": "One. Two. Three.",
+  "payload": {
+    "code": ["console.log(1);"],
+    "options": ["1", "2", "Error"],
+    "answerIndex": 0
+  }
+}

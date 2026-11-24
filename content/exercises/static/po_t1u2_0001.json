@@ -1,0 +1,18 @@
+{
+  "id": "po_t1u2_0001",
+  "type": "predictOutput",
+  "unitId": "t1-u2",
+  "concepts": ["types"],
+  "difficulty": 1,
+  "language": "javascript",
+  "basedOn": [
+    { "label": "MDN: Addition (+)", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition" }
+  ],
+  "explanation": "When one side of + is a string, JavaScript joins the values as text. So \"2\" + 2 becomes \"22\", not 4.",
+  "altExplanation": "The quotes make a a piece of text. Adding a number to text sticks them together.",
+  "payload": {
+    "code": ["let a = \"2\";", "let b = 2;", "console.log(a + b);"],
+    "options": ["4", "22", "\"2\"2", "Error"],
+    "answerIndex": 1
+  }
+}
