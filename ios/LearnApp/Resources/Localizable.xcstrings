@@ -1,0 +1,209 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ is picking today's bug. Check back soon.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ is picking today's bug. Check back soon."
+          }
+        }
+      },
+      "comment": "%@ is Brand.mascotName."
+    },
+    "%lld %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld %2$@"
+          }
+        }
+      },
+      "comment": "VoiceOver label for the currency pill. %2$@ is Brand.currencyName(for:), already singular or plural."
+    },
+    "%lld day streak": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld day streak"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld day streak"
+                }
+              }
+            }
+          }
+        }
+      },
+      "comment": "VoiceOver label for the streak pill."
+    },
+    "%lld hearts": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld heart"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld hearts"
+                }
+              }
+            }
+          }
+        }
+      },
+      "comment": "VoiceOver label for the hearts pill."
+    },
+    "Check": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check"
+          }
+        }
+      },
+      "comment": "Primary lesson button (design system previews)."
+    },
+    "Continue": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue"
+          }
+        }
+      }
+    },
+    "Daily": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daily"
+          }
+        }
+      },
+      "comment": "Tab and screen title: Daily Bug and social."
+    },
+    "Daily Bug": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daily Bug"
+          }
+        }
+      },
+      "comment": "Feature name: one bug puzzle per day."
+    },
+    "Explain differently": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explain differently"
+          }
+        }
+      }
+    },
+    "Haptics": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haptics"
+          }
+        }
+      }
+    },
+    "Learn": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Learn"
+          }
+        }
+      },
+      "comment": "Tab and screen title: the learning path."
+    },
+    "Profile": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile"
+          }
+        }
+      },
+      "comment": "Tab and screen title."
+    },
+    "Settings": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        }
+      }
+    },
+    "Skip": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skip"
+          }
+        }
+      }
+    },
+    "Vibrations for answers and taps.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vibrations for answers and taps."
+          }
+        }
+      }
+    },
+    "Your learning path will appear here soon.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your learning path will appear here soon."
+          }
+        }
+      }
+    },
+    "Your path": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your path"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

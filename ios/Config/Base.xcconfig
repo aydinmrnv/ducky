@@ -1,0 +1,29 @@
+// Shared build settings for every target and configuration.
+// Debug.xcconfig and Release.xcconfig include this file.
+
+// The user-facing app name. Renaming the app = edit this line + `Brand` in LearnKit.
+APP_DISPLAY_NAME = Ducky
+
+// Neutral, permanent identifiers. Never put the product name in these.
+APP_BUNDLE_IDENTIFIER = one.nullstack.learn
+APP_GROUP_IDENTIFIER = group.one.nullstack.learn
+
+MARKETING_VERSION = 0.1.0
+CURRENT_PROJECT_VERSION = 1
+
+SDKROOT = iphoneos
+SUPPORTED_PLATFORMS = iphoneos iphonesimulator
+TARGETED_DEVICE_FAMILY = 1
+IPHONEOS_DEPLOYMENT_TARGET = 26.0
+
+SWIFT_VERSION = 6.0
+SWIFT_STRICT_CONCURRENCY = complete
+SWIFT_EMIT_LOC_STRINGS = YES
+LOCALIZATION_PREFERS_STRING_CATALOGS = YES
+ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES
+ENABLE_USER_SCRIPT_SANDBOXING = YES
+ALWAYS_SEARCH_USER_PATHS = NO
+CLANG_ENABLE_MODULES = YES
+CLANG_ENABLE_OBJC_ARC = YES
+DEAD_CODE_STRIPPING = YES
+STRING_CATALOG_GENERATE_SYMBOLS = NO

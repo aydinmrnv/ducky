@@ -19,3 +19,13 @@ backend/supabase/.branches/
 # Pipeline output
 pipeline/out/
 pipeline/.cache/
+
+# Xcode / SwiftPM (more)
+ios/**/xcshareddata/IDEWorkspaceChecks.plist
+ios/**/.swiftpm/
+ios/build/
+*.xcworkspace/xcuserdata/
+
+# Local secrets for the iOS build (see ios/Config/Secrets.example.xcconfig)
+ios/Config/Secrets.*.xcconfig
+!ios/Config/Secrets.example.xcconfig

@@ -1,0 +1,14 @@
+#include "Base.xcconfig"
+
+// Placeholders only. Real values go in Secrets.Release.xcconfig (gitignored).
+// Note: "//" starts a comment in xcconfig files, hence the "/$()/" trick.
+API_BASE_URL = https:/$()/api.example.invalid
+SUPABASE_ANON_KEY =
+
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+ENABLE_NS_ASSERTIONS = NO
+VALIDATE_PRODUCT = YES
+SWIFT_COMPILATION_MODE = wholemodule
+SWIFT_OPTIMIZATION_LEVEL = -O
+
+#include? "Secrets.Release.xcconfig"
